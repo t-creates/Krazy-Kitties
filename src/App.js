@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CardList from './CardList';
 import SearchBox from './SearchBox.js';
 import { cats } from './Cats';
+import './App.css';
 
 
 class App extends Component {
@@ -22,8 +23,8 @@ class App extends Component {
       return cat.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
     })
     return (
-      <div className='tc '>
-        <h1>Krazy Kitties</h1>
+      <div className='tc'>
+        <h1 className='f1' >Krazy Kitties</h1>
         <SearchBox searchChange={this.onSearchChange} />
         <CardList cats={filteredcats} />
       </div>
