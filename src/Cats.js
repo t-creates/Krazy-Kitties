@@ -35,4 +35,28 @@ export const cats = [
         username: 'Meow',
         email: 'KarenTrain@chewchew.biz'
     },
+    {
+        id: 7,
+        name: 'Levi Lynn',
+        username: 'Trucks',
+        email: 'Train@chewchew.biz'
+    },
+    {
+        id: 8,
+        name: 'Devlin Devlin',
+        username: 'Furry Friend',
+        email: 'DD@chewchew.biz'
+    },
+    {
+        id: 9,
+        name: 'Felix Nermander',
+        username: 'Puss Puss',
+        email: 'FN@gator.org'
+    },
+    {
+        id: 10,
+        name: 'Bert Johnson',
+        username: 'Alley Cat',
+        email: 'Bert@sesamestreet.com'
+    },
 ]
