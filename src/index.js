@@ -1,15 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CardList from './CardList.js';
+import App from './App.js';
 import 'tachyons';
-import { cats } from './Cats';
-
 // import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <CardList cats={cats} />,
-  document.getElementById('root')
+ReactDOM.render(<App />, document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
