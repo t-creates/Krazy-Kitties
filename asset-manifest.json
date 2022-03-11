@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Krazy-Kitties/static/css/main.9740e674.css",
+    "main.js": "/Krazy-Kitties/static/js/main.580ef833.js",
+    "index.html": "/Krazy-Kitties/index.html",
+    "main.9740e674.css.map": "/Krazy-Kitties/static/css/main.9740e674.css.map",
+    "main.580ef833.js.map": "/Krazy-Kitties/static/js/main.580ef833.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9740e674.css",
+    "static/js/main.580ef833.js"
+  ]
+}
